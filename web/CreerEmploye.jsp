@@ -11,6 +11,7 @@
     <body>
         <h1>Créer un employé</h1>
         
+        
         <form id="creerEmployeForm" action="CreerEmploye" method="post">
             <table>
                 <tr><td>Pseudo</td><td><input type="text" id = "pseudo" name="pseudo" required/></td></tr>
