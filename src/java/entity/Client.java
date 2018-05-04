@@ -64,7 +64,7 @@ public class Client implements Serializable {
     @Basic(optional = false)
     @NotNull
     @Size(min = 1, max = 45)
-    @Pattern(regexp="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", message="Format de mail invalide")
+    //@Pattern(regexp="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", message="Format de mail invalide")
     @Column(name = "Mail")
     private String mail;
     @Basic(optional = false)
