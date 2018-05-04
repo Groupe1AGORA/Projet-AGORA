@@ -73,7 +73,7 @@ public class Ouvrier implements Serializable {
     @NotNull
     @Size(min = 1, max = 45)
     @Column(name = "Mail")
-    @Pattern(regexp="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", message="Format de mail invalide")
+    //@Pattern(regexp="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", message="Format de mail invalide")
     private String mail;
     @Basic(optional = false)
     @NotNull
